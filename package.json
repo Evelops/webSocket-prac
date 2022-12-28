@@ -1,0 +1,31 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eomssy/metaverse-webrtc.git"
+  },
+  "author": "eomssy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eomssy/metaverse-webrtc/issues"
+  },
+  "homepage": "https://github.com/eomssy/metaverse-webrtc#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2",
+    "ws": "^8.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.7",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20"
+  }
+}
